@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f5386e09-3e65-4f53-a345-0db7201b7f74">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     BUS."BUSNO" AS BUS_BUSNO,
+     ORDERDETAIL_A."QUANTITY" AS ORDERDETAIL_A_QUANTITY,
+     BUS."BUSNAME" AS BUS_BUSNAME
+FROM
+     "NBUSER"."BUS" BUS INNER JOIN "NBUSER"."SCHEDULE" SCHEDULE ON BUS."BUSID" = SCHEDULE."BUSID"
+     INNER JOIN "NBUSER"."ORDERDETAIL" ORDERDETAIL_A ON SCHEDULE."SCHEDULEID" = ORDERDETAIL_A."SCHEDULEID"]]>
+	</queryString>
+	<field name="BUS_BUSNAME" class="java.lang.String"/>
+	<field name="BUS_BUSNO" class="java.lang.String"/>
+	<field name="ORDERDETAIL_A_QUANTITY" class="java.lang.Integer"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="91">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="111" backcolor="#006699" uuid="72d98bf5-5f45-4cf9-bcc6-c9bb6e6d573c"/>
+				<staticText>
+					<reportElement x="97" y="0" width="395" height="111" forecolor="#FFFFFF" uuid="cd1b970f-b3a3-439b-9e3d-b8110ff28cf1"/>
+					<textElement>
+						<font size="26" isBold="true"/>
+					</textElement>
+					<text><![CDATA[FAST AND CONVENIENT (FAC)
+             Bus Express
+  BUS TICKET SALES REPORT]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="395" y="43" width="180" height="20" forecolor="#FFFFFF" uuid="897b6510-a369-4b33-a9c1-fb0380c73972"/>
+					<textElement textAlignment="Right">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="3"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="21">
+			<line>
+				<reportElement x="-20" y="20" width="595" height="1" forecolor="#666666" uuid="8339b853-2122-4a86-b6c0-2838a048aadf"/>
+			</line>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="185" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="c2217608-9a4a-46f1-981c-7a44ace5106c"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BUS NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="185" y="0" width="185" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="60afd52c-7a76-44e7-8404-b6cadd3634f2"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BUS NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="370" y="0" width="185" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="37ddeaaf-7d13-458e-92a7-2c1c0f7b30c3"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[QUANTITY]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="19" width="555" height="1" uuid="8b3fd7ae-a58e-472f-9148-df6780eef25c"/>
+			</line>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="0" y="0" width="185" height="20" uuid="94256c60-3f7d-41aa-9d04-7ff8a90fb31c"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{BUS_BUSNAME}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="185" y="0" width="185" height="20" uuid="c8ee836e-3033-4aa1-a333-43c638992230"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{BUS_BUSNO}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="370" y="0" width="185" height="20" uuid="311f5675-081c-45fd-b13b-e5b04c1f1508"/>
+				<textElement textAlignment="Right">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ORDERDETAIL_A_QUANTITY}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="2abb6671-f184-4f8e-a643-e5e44a7345d9"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="bfdd7eea-5953-44a5-b9c6-9d33448467cd"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="9cf91bcd-4de5-4228-99ac-ff0919b20c68"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

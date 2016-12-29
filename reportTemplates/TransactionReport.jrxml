@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="832b897d-3a82-43d7-b9d7-b6d43b529ad4">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT
+     ORDERTABLE."ORDERDATE" AS ORDERTABLE_ORDERDATE,
+     ORDERTABLE."TOTALPRICE" AS ORDERTABLE_TOTALPRICE,
+     ROUTE."DEPARTUREDEST" AS ROUTE_DEPARTUREDEST,
+     ROUTE."ARRIVALDEST" AS ROUTE_ARRIVALDEST,
+     ROUTE."PRICE" AS ROUTE_PRICE,
+     ORDERDETAIL."QUANTITY" AS ORDERDETAIL_QUANTITY
+FROM
+     "NBUSER"."ORDERTABLE" ORDERTABLE, "NBUSER"."ORDERDETAIL" ORDERDETAIL , 
+     "NBUSER"."ROUTE" ROUTE, "NBUSER"."SCHEDULE" SCHEDULE
+WHERE
+	ROUTE.ROUTEID = SCHEDULE.ROUTEID AND SCHEDULE.SCHEDULEID = ORDERDETAIL.SCHEDULEID AND ORDERDETAIL.ORDERID = ORDERTABLE.ORDERID]]>
+	</queryString>
+	<field name="ORDERTABLE_ORDERDATE" class="java.sql.Date"/>
+	<field name="ORDERTABLE_TOTALPRICE" class="java.lang.Double"/>
+	<field name="ROUTE_DEPARTUREDEST" class="java.lang.String"/>
+	<field name="ROUTE_ARRIVALDEST" class="java.lang.String"/>
+	<field name="ROUTE_PRICE" class="java.lang.Double"/>
+	<field name="ORDERDETAIL_QUANTITY" class="java.lang.Integer"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="124">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="142" backcolor="#006699" uuid="66b3f07c-602f-4176-a740-e0676ff33f71"/>
+				<staticText>
+					<reportElement x="75" y="0" width="460" height="117" forecolor="#FFFFFF" uuid="4cc98d29-3246-4cf2-b80e-74422944aaab"/>
+					<textElement>
+						<font size="26" isBold="true"/>
+					</textElement>
+					<text><![CDATA[   FAST AND CONVENIENT (FAC)
+                  Bus Express
+DAILY BUS TICKET SALES REPORT]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="395" y="43" width="180" height="20" forecolor="#FFFFFF" uuid="f70d8cbf-fabc-4b63-8eef-70a8852d869a"/>
+					<textElement textAlignment="Right">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="5"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="56">
+			<line>
+				<reportElement x="-20" y="44" width="595" height="1" forecolor="#666666" uuid="5323f406-b5d2-497e-9c34-d703b681f7a2"/>
+			</line>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="92" height="42" forecolor="#006699" backcolor="#E6E6E6" uuid="9486c6ad-83bb-4f46-b1a6-ff73f8c4a208"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="92" y="0" width="92" height="42" forecolor="#006699" backcolor="#E6E6E6" uuid="8b17264e-d8b6-4860-a319-1d0a234a7d94"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DEPARTURE PLACE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="184" y="0" width="92" height="42" forecolor="#006699" backcolor="#E6E6E6" uuid="d975dd41-fdf9-4a9a-9423-2f721565efd9"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ARRIVAL DESTINATION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="276" y="0" width="92" height="42" forecolor="#006699" backcolor="#E6E6E6" uuid="51771b68-48d8-4bf4-8a96-bbccbc90d471"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PRICE(RM)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="368" y="0" width="92" height="42" forecolor="#006699" backcolor="#E6E6E6" uuid="8650740e-585e-4965-b4ae-cc1d8756d490"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[QUANTITY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="460" y="0" width="92" height="42" forecolor="#006699" backcolor="#E6E6E6" uuid="39d382ad-183e-473e-8e34-510d48280264"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TOTAL PRICE(RM)]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="19" width="555" height="1" uuid="4a199f20-5909-4de6-ac07-b17eaa22b58b"/>
+			</line>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="0" y="0" width="92" height="20" uuid="2e17e0ff-47ff-4298-b750-036019454e3b"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ORDERTABLE_ORDERDATE}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="92" y="0" width="92" height="20" uuid="60935ff3-7143-48d5-9a5f-454b1b410fa1"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ROUTE_DEPARTUREDEST}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="184" y="0" width="92" height="20" uuid="c7f55759-f82d-4608-800b-dfaba6e67e04"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ROUTE_ARRIVALDEST}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="276" y="0" width="92" height="20" uuid="5d1ed96d-32d4-49b9-a3c9-d99445596d08"/>
+				<textElement textAlignment="Right">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ROUTE_PRICE}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="368" y="0" width="92" height="20" uuid="a08c21bb-4bda-4157-b936-4ceb68de22ec"/>
+				<textElement textAlignment="Center">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ORDERDETAIL_QUANTITY}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="460" y="0" width="92" height="20" uuid="2b011cd4-92ee-45ff-9a28-34bea4dfc6a4"/>
+				<textElement textAlignment="Right">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ORDERTABLE_TOTALPRICE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="fa0507c5-ba68-4964-9c58-d49cbf389c4c"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="dbb512df-13b0-4f7c-80cb-66cc9f74b7b1"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="ae9c7409-b330-44c0-b1dd-9ec33b77d96b"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>
