@@ -16,7 +16,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class LogIn extends JFrame{
-    
     private String host = "jdbc:derby://localhost:1527/BusDB";
     private String user = "nbuser";
     private String password = "nbuser";
