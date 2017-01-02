@@ -1,0 +1,167 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,GitHub ID,Integration,Owned By,Comment,Comment,Task,Task Status,Task,Task Status,Task,Task Status
+135419947,Staff Login,login,1,"Dec 26, 2016","Jan 1, 2017",feature,2,accepted,"Dec 2, 2016","Dec 31, 2016",,Tan Chin Wen,"As a staff,  I want to login to the system so that I can manage ticket reservation.",https://www.pivotaltracker.com/story/show/135419947,,,Tan Chin Wen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/58506e43f845cf727ee0118d26984998b75506bb
+
+Add files via upload
+
+[(Finishes)#135419947] (Wei Seong - Dec 2, 2016)","Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/33f2c77b78356731284859c669549a7a9d93098d
+
+[(Finishes)#135419947] (Wei Seong - Dec 10, 2016)","Design user interface
+",completed,"Code functionalities
+",completed,"Implement input validation
+",completed
+135932727,Admin login,login,1,"Dec 26, 2016","Jan 1, 2017",feature,2,accepted,"Dec 12, 2016","Dec 31, 2016",,Tan Chin Wen,"As a admin, I want to login to the system so that I can manage admin profile, bus, schedule, route and generate report.",https://www.pivotaltracker.com/story/show/135932727,,,Tan Chin Wen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/8cd9fa4d37907c62dbd910f0bf3adf7a420f8349
+
+[(Finishes)#135932727] (Wei Seong - Dec 12, 2016)",,"Design user interface
+",completed,"Code functionalities
+",completed,"Implement input validation
+",completed
+136748917,Forget password,login,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 28, 2016","Dec 31, 2016",,Tan Chin Wen,"As a user, I want to reset my password so that I can log in to the system to perform task.",https://www.pivotaltracker.com/story/show/136748917,,,Tan Chin Wen,,,"Design user interface
+",completed,"Code functionalities
+",completed,"Implement input validation
+",completed
+135932657,Create staff,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,2,accepted,"Dec 12, 2016","Dec 31, 2016",,Tan Chin Wen,"As a bus company admin, I want to add a new staff information, so that i can assign task effectively according to the information.",https://www.pivotaltracker.com/story/show/135932657,,,Tan Chin Wen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/c8a4cb8fe2ccbd50a964cb64653a40f2801807fc
+
+[(Finishes)#135932819] [(Finishes)#135932767] [(Finishes)#135932719] [(Finishes)#135932657] (Wei Seong - Dec 12, 2016)",,Design staff module interface,completed,Develop the functionality of add staff,completed,Functionality testing,completed
+135932719,Retrieve staff,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Tan Chin Wen,"As a bus company admin, I want to retrieve staff information so that i can know the personal details of a staff, no need to meet every staff to understand their personalities.",https://www.pivotaltracker.com/story/show/135932719,,,Tan Chin Wen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/c8a4cb8fe2ccbd50a964cb64653a40f2801807fc
+
+[(Finishes)#135932819] [(Finishes)#135932767] [(Finishes)#135932719] [(Finishes)#135932657] (Wei Seong - Dec 12, 2016)",,Design retrieve staff user interface.,completed,Develop functionality of retrieve staff,completed,Functionality testing,completed
+135932767,Update staff,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Tan Chin Wen,"As a bus company admin, I want to edit staff information so that I can update the staff information.",https://www.pivotaltracker.com/story/show/135932767,,,Tan Chin Wen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/c8a4cb8fe2ccbd50a964cb64653a40f2801807fc
+
+[(Finishes)#135932819] [(Finishes)#135932767] [(Finishes)#135932719] [(Finishes)#135932657] (Wei Seong - Dec 12, 2016)",,Design edit staff user interface,completed,Develop functionality of staff,completed,Functionality testing,completed
+135932819,Delete staff,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Tan Chin Wen,"As a bus company admin, I want delete the staff information, so that i do not waste time on the staff information that not longer work in company.",https://www.pivotaltracker.com/story/show/135932819,,,Tan Chin Wen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/c8a4cb8fe2ccbd50a964cb64653a40f2801807fc
+
+[(Finishes)#135932819] [(Finishes)#135932767] [(Finishes)#135932719] [(Finishes)#135932657] (Wei Seong - Dec 12, 2016)",,Design delete staff user interface.,completed,Develop functionality of delete staff,completed,Functionality testing,completed
+135934393,Add Booking Ticket,booking ticket,1,"Dec 26, 2016","Jan 1, 2017",feature,3,accepted,"Dec 12, 2016","Dec 31, 2016",,Terrence Yoong,"As a staff, i need to add new booking ticket into a single order receipt, so that customer order can be recorded.",https://www.pivotaltracker.com/story/show/135934393,,,Terrence Yoong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/a57d72c8281457b8986bafc6fa77b65e90f07f2b
+
+[(Finishes)#135935483] [(Finishes)#135935035] [(Finishes)#135934809] [(Finishes)#135934393] (Wei Seong - Dec 12, 2016)",,Design user interface.,completed,Code functionalities.,completed,Implement input validations,completed
+135934809,View booking ticket,booking ticket,1,"Dec 26, 2016","Jan 1, 2017",feature,3,accepted,"Dec 12, 2016","Dec 31, 2016",,Terrence Yoong,"As a staff , I want to check the customer booking detail, so that I can know booking ticket on specific day or month.",https://www.pivotaltracker.com/story/show/135934809,,,Terrence Yoong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/a57d72c8281457b8986bafc6fa77b65e90f07f2b
+
+[(Finishes)#135935483] [(Finishes)#135935035] [(Finishes)#135934809] [(Finishes)#135934393] (Wei Seong - Dec 12, 2016)",,Design user interface,completed,Code functionalities.,completed,Implement input validations,completed
+136748203,Create payment,payment module,1,"Dec 26, 2016","Jan 1, 2017",feature,2,accepted,"Dec 28, 2016","Dec 31, 2016",,Terrence Yoong,"As a staff, I need to create payment, so that can calculate total fare to customer to let them make their payment..",https://www.pivotaltracker.com/story/show/136748203,,,Terrence Yoong,,,Design user interface,completed,Code functionalities,completed,Implement input validation,completed
+135931281,Generate Ticket,payment module,1,"Dec 26, 2016","Jan 1, 2017",feature,3,accepted,"Dec 12, 2016","Dec 31, 2016",,Terrence Yoong,"As a staff, I need to generate ticket, so that the company can keep track what had been sold to who.",https://www.pivotaltracker.com/story/show/135931281,,,Terrence Yoong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/972bb29b7e8091f6254b962d32fbfc18d5334ada
+
+[(Finishes)#135931281] (Wei Seong - Dec 12, 2016)",,Design user interface,completed,Code functionalities,completed,Implement input validation,completed
+135935805,Update staff detalis,staff maintaince module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Terrence Yoong,"As a manager, I want to edit staff information so that I can get the update to date staff information.",https://www.pivotaltracker.com/story/show/135935805,,,Terrence Yoong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/783eb0c75a26acba12362598d6c87bdf2ccc2f56
+
+[(Finishes)#135935871] [(Finishes)#135935805] [(Finishes)#135935735] [(Finishes)#135935679] (Wei Seong - Dec 12, 2016)",,Design edit staff user interface.,completed,Develop functionality of staff,completed,Functionality testing.,completed
+135933329,Create Route,route module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,tan teik shen,"As a manager, I want to add route so that the company is able to provide new route to customer.",https://www.pivotaltracker.com/story/show/135933329,,,tan teik shen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/dd037047915b96628372f68ba98d7253738ea7f3
+
+[(Finishes)#135933717] [(Finishes)#135933651] [(Finishes)#135933583] [(Finishes)#135933329] (Wei Seong - Dec 12, 2016)",,Design Add Route UI,completed,Add Route functionality coding,completed,Functionality Testing,completed
+135933583,Display Route,route module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,tan teik shen,"As a Manager, I want to view the route so that I able to view the route",https://www.pivotaltracker.com/story/show/135933583,,,tan teik shen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/dd037047915b96628372f68ba98d7253738ea7f3
+
+[(Finishes)#135933717] [(Finishes)#135933651] [(Finishes)#135933583] [(Finishes)#135933329] (Wei Seong - Dec 12, 2016)",,Design Route UI,completed,Route Display Functionality coding,completed,Functionality Testing,completed
+135933651,Update Route,route module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,tan teik shen,"As a manager, I want to edit the route so that I able to adjust the where the bus go.",https://www.pivotaltracker.com/story/show/135933651,,,tan teik shen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/dd037047915b96628372f68ba98d7253738ea7f3
+
+[(Finishes)#135933717] [(Finishes)#135933651] [(Finishes)#135933583] [(Finishes)#135933329] (Wei Seong - Dec 12, 2016)",,Design Update Route UI,completed,Update Route Functionality coding,completed,Functionality Testing,completed
+135933717,Delete route,route module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,tan teik shen,"As a manager, I want to delete the route so that I able to adjust the bus go.",https://www.pivotaltracker.com/story/show/135933717,,,tan teik shen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/dd037047915b96628372f68ba98d7253738ea7f3
+
+[(Finishes)#135933717] [(Finishes)#135933651] [(Finishes)#135933583] [(Finishes)#135933329] (Wei Seong - Dec 12, 2016)",,Design Delete route UI,completed,Delete route Functionality coding,completed,Functionality Testing,completed
+135932445,Create bus schedule,bus schedule,1,"Dec 26, 2016","Jan 1, 2017",feature,2,accepted,"Dec 12, 2016","Dec 31, 2016",,tan teik shen,"As the manager, I need to create the bus schedule, so that the customer and the bus drive can know what time the bus will go.",https://www.pivotaltracker.com/story/show/135932445,,,tan teik shen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/1914746b32b46856d02b9723795dc3319a524153
+
+[(Finishes)#135932905] [(Finishes)#135932737] [(Finishes)#135932989] [(Finishes)#135932445] (Wei Seong - Dec 12, 2016)",,"Design Add Bus Schedule UI
+",completed,Add Bus schedule functionality coding,completed,Functionality Testing,completed
+135932737,Display Bus Schedule,bus schedule,1,"Dec 26, 2016","Jan 1, 2017",feature,2,accepted,"Dec 12, 2016","Dec 31, 2016",,tan teik shen,"As a counter staff, I want to view the bus schedule so that I able to sell the bus ticket to the customer and give the customer to know what time the bus will go. ",https://www.pivotaltracker.com/story/show/135932737,,,tan teik shen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/23129501ded2ed0a7e68e5bd0860df3271a8b1b3
+
+[(Finishes)#135932905] [(Finishes)#135932737] (Wei Seong - Dec 12, 2016)","Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/1914746b32b46856d02b9723795dc3319a524153
+
+[(Finishes)#135932905] [(Finishes)#135932737] [(Finishes)#135932989] [(Finishes)#135932445] (Wei Seong - Dec 12, 2016)",Design Bus Schedule UI,completed,Bus Schedule Display Functionality coding,completed,Functionality Testing,completed
+135932905,Update Bus Schedule,bus schedule,1,"Dec 26, 2016","Jan 1, 2017",feature,2,accepted,"Dec 12, 2016","Dec 31, 2016",,tan teik shen,"As a manager, I want to edit the bus schedule details so that I able to adjust the time bus go, the price and the bus drive. ",https://www.pivotaltracker.com/story/show/135932905,,,tan teik shen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/23129501ded2ed0a7e68e5bd0860df3271a8b1b3
+
+[(Finishes)#135932905] [(Finishes)#135932737] (Wei Seong - Dec 12, 2016)","Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/1914746b32b46856d02b9723795dc3319a524153
+
+[(Finishes)#135932905] [(Finishes)#135932737] [(Finishes)#135932989] [(Finishes)#135932445] (Wei Seong - Dec 12, 2016)",Design Update Bus Schedule UI,completed,Update Schedele Functionality coding,completed,Functionality Testing,completed
+135932989,Search Bus Schedule,bus schedule,1,"Dec 26, 2016","Jan 1, 2017",feature,2,accepted,"Dec 12, 2016","Dec 31, 2016",,tan teik shen,"As a counter staff, I want to search schedule details so that I can view the schedule details in more efficiency way.",https://www.pivotaltracker.com/story/show/135932989,,,tan teik shen,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/1914746b32b46856d02b9723795dc3319a524153
+
+[(Finishes)#135932905] [(Finishes)#135932737] [(Finishes)#135932989] [(Finishes)#135932445] (Wei Seong - Dec 12, 2016)",,Design Bus Schedule UI,completed,Bus Schedule Display Functionality coding,completed,Functionality Testing,completed
+135932371,Create Manager,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Quah Cheun Wei,"As a bus company admin, I want to add a new manager information, so that i can assign task effectively according to the information.",https://www.pivotaltracker.com/story/show/135932371,,,Quah Cheun Wei,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/0bf335a6bc996e566c55ab05d8cc838a9ba52a64
+
+[(Finishes)#135932575] [(Finishes)#135932509] [(Finishes)#135932447] [(Finishes)#135932371] (Wei Seong - Dec 12, 2016)",,Design manager module interface,completed,Develop the functionality of add manager,completed,Functionality testing,completed
+135932447,Retrieve manager,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Quah Cheun Wei,"As a bus company admin, I want to retrieve manager information so that i can know the personal details of a manager, no need to meet every manager to understand their personalities.",https://www.pivotaltracker.com/story/show/135932447,,,Quah Cheun Wei,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/0bf335a6bc996e566c55ab05d8cc838a9ba52a64
+
+[(Finishes)#135932575] [(Finishes)#135932509] [(Finishes)#135932447] [(Finishes)#135932371] (Wei Seong - Dec 12, 2016)",,Design retrieve manager interface,completed,Develop functionality of retrieve manager ,completed
+135932509,Update manager,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Quah Cheun Wei,"As a bus company admin, I want to edit manager information so that I can update the manager information.",https://www.pivotaltracker.com/story/show/135932509,,,Quah Cheun Wei,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/0bf335a6bc996e566c55ab05d8cc838a9ba52a64
+
+[(Finishes)#135932575] [(Finishes)#135932509] [(Finishes)#135932447] [(Finishes)#135932371] (Wei Seong - Dec 12, 2016)",,Design edit manager user interface,completed,Develop functionality of manager,completed,Functionality testing,completed
+135932575,Delete manager,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Quah Cheun Wei,"As a bus company admin, I want delete the manager information, so that i do not waste time on the manager information that not longer work in company.",https://www.pivotaltracker.com/story/show/135932575,,,Quah Cheun Wei,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/0bf335a6bc996e566c55ab05d8cc838a9ba52a64
+
+[(Finishes)#135932575] [(Finishes)#135932509] [(Finishes)#135932447] [(Finishes)#135932371] (Wei Seong - Dec 12, 2016)",,Design edit manager user interface,completed,Develop functionality of manager,completed,Functionality testing,completed
+135932941,Create bus,bus module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Quah Cheun Wei,"As a bus company admin, I want to add a new bus information, so that i can assign task effectively according to the information.",https://www.pivotaltracker.com/story/show/135932941,,,Quah Cheun Wei,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/3a682d75fad4f5622e4ca2dd43bb4a681cd16050
+
+[(Finishes)#135933041] [(Finishes)#135932941] [(Finishes)#135933239] [(Finishes)#135933169] (Wei Seong - Dec 12, 2016)",,Design bus module interface,completed,Develop the functionality of add bus,completed,Functionality testing,completed
+135933041,Retrieve bus,bus module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Quah Cheun Wei,"As a bus company admin, I want to retrieve bus information so that i can know the details of a bus.",https://www.pivotaltracker.com/story/show/135933041,,,Quah Cheun Wei,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/3a682d75fad4f5622e4ca2dd43bb4a681cd16050
+
+[(Finishes)#135933041] [(Finishes)#135932941] [(Finishes)#135933239] [(Finishes)#135933169] (Wei Seong - Dec 12, 2016)",,Design retrieve bus interface.,completed,Develop functionality of retrieve bus,completed
+135933169,Update bus,bus module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Quah Cheun Wei,"As a bus company admin, I want to edit bus information so that I can update the bus information.",https://www.pivotaltracker.com/story/show/135933169,,,Quah Cheun Wei,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/3a682d75fad4f5622e4ca2dd43bb4a681cd16050
+
+[(Finishes)#135933041] [(Finishes)#135932941] [(Finishes)#135933239] [(Finishes)#135933169] (Wei Seong - Dec 12, 2016)",,Design edit bus user interface,completed,Develop functionality of  bus,completed,Functionality testing,completed
+135933239,Delete bus,bus module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Quah Cheun Wei,"As a bus company admin, I want delete the bus information, so that i do not waste time on the bus information that not longer work in company.",https://www.pivotaltracker.com/story/show/135933239,,,Quah Cheun Wei,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/3a682d75fad4f5622e4ca2dd43bb4a681cd16050
+
+[(Finishes)#135933041] [(Finishes)#135932941] [(Finishes)#135933239] [(Finishes)#135933169] (Wei Seong - Dec 12, 2016)",,Design edit bus user interface,completed,Develop functionality of  bus,completed,Functionality testing,completed
+135931929,Create Driver,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Wei Seong,"As a bus company admin, I want to add a new driver information, so that i can assign task effectively according to the information.",https://www.pivotaltracker.com/story/show/135931929,,,Wei Seong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/1464d078149792c3c9de1610c9777e2a81e0705a
+
+[(Finishes)#135932271] [(Finishes)#135932177] [(Finishes)#135932007] [(Finishes)#135931929] (Wei Seong - Dec 12, 2016)",,Design driver module interface,completed,Develop the functionality of add driver,completed,Functionality Testing,completed
+135932007,Retrieve Driver,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Wei Seong,"As a bus company admin, I want to retrieve driver information so that i can know the personal details of a driver, no need to meet every driver to understand their personalities.",https://www.pivotaltracker.com/story/show/135932007,,,Wei Seong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/1464d078149792c3c9de1610c9777e2a81e0705a
+
+[(Finishes)#135932271] [(Finishes)#135932177] [(Finishes)#135932007] [(Finishes)#135931929] (Wei Seong - Dec 12, 2016)",,Design retrieve driver interface.,completed,Develop functionality of retrieve driver,completed,Functionality Testing,completed
+135932177,Update Driver,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Wei Seong,"As a bus company admin, I want to edit driver information so that I can update the driver information.",https://www.pivotaltracker.com/story/show/135932177,,,Wei Seong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/1464d078149792c3c9de1610c9777e2a81e0705a
+
+[(Finishes)#135932271] [(Finishes)#135932177] [(Finishes)#135932007] [(Finishes)#135931929] (Wei Seong - Dec 12, 2016)",,Design edit driver user interface,completed,Develop functionality of driver,completed,Functionality testing.,completed
+135932271,Delete Driver,admin maintenance module,1,"Dec 26, 2016","Jan 1, 2017",feature,1,accepted,"Dec 12, 2016","Dec 31, 2016",,Wei Seong,"As a bus company admin, I want delete the driver information, so that i do not waste time on the driver information that not longer work in company.",https://www.pivotaltracker.com/story/show/135932271,,,Wei Seong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/1464d078149792c3c9de1610c9777e2a81e0705a
+
+[(Finishes)#135932271] [(Finishes)#135932177] [(Finishes)#135932007] [(Finishes)#135931929] (Wei Seong - Dec 12, 2016)",,Design delete driver user interface.,completed,Develop functionality of driver,completed,Functionality testing ,completed
+135932467,Generate Transaction Report,report module,1,"Dec 26, 2016","Jan 1, 2017",feature,3,accepted,"Dec 12, 2016","Dec 31, 2016",,Wei Seong,"As an admin, I want to generate exception report so that the company can check the sales of each route.",https://www.pivotaltracker.com/story/show/135932467,,,Wei Seong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/589025bba71ee006f67747f5296c46e890897b31
+
+[(Finishes)#135932467] (Wei Seong - Dec 12, 2016)",,"Design user interface
+",completed,Code functionalities,completed,"Implement input validation
+",completed
+135932339,Generate Exception Report,report module,1,"Dec 26, 2016","Jan 1, 2017",feature,3,accepted,"Dec 12, 2016","Dec 31, 2016",,Wei Seong,"As an admin, I want to generate exception report so that the company can check the report such as monthly top sales, top 10 route.",https://www.pivotaltracker.com/story/show/135932339,,,Wei Seong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/b6e644663684b33400aec844a30e86dc473ebd01
+
+[(Finishes)#135932339] (Wei Seong - Dec 12, 2016)","Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/e5471a08f42e43c8675d857adddcbc0869d47c39
+
+[(Finishes)#135932339] (Wei Seong - Dec 12, 2016)",Design user interface,completed,Code functionalities,completed,Implement input validation,completed
+135932523,Generate Summary Report,report module,1,"Dec 26, 2016","Jan 1, 2017",feature,3,accepted,"Dec 12, 2016","Dec 31, 2016",,Wei Seong,"As an admin, I want to generate exception report so that the company can check the daily or monthly report.",https://www.pivotaltracker.com/story/show/135932523,,,Wei Seong,"Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/737282be7cde109ba11d526a3c883866dec7822e
+
+[(Finishes)#135932523] (Wei Seong - Dec 12, 2016)","Commit by wsongtiang
+https://github.com/wsongtiang/Process/commit/9beffa2975903bca3fe01cf644474bada87f975c
+
+[(Finishes)#135932523] (Wei Seong - Dec 12, 2016)","Design user interface
+",completed,"Code functionalities
+",completed,"Implement input validation
+",completed
